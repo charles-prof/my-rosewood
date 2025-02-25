@@ -1,0 +1,62 @@
+# .gitignore
+
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# WordPress content directories
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/mu-plugins/
+wp-content/languages/
+
+# Ignore specific file types
+*.log
+*.sql
+*.sqlite
+*.tar.gz
+*.zip
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore SFTP configuration file
+.sftp-config.json
+
+# Ignore environment variable files
+.env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Composer vendor directory
+vendor/
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore coverage reports
+coverage/
+
+# Ignore miscellaneous files
+*.bak
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
