@@ -18,7 +18,6 @@ wp-content/languages/
 # Ignore specific file types
 *.log
 *.sql
-*.sqlite
 *.tar.gz
 *.zip
 
